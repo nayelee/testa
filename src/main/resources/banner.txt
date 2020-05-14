@@ -4,5 +4,5 @@
 /____/\___/\___/\__/ /___/ .__/_/ /_/_//_/\_, / /____/\___/\___/\__/ 
                         /_/              /___/                       
 
-* Github Repository: https://github.com/ihoneymon/boot-spring-boot
+* Github Repository: https://github.com/2rules/springboot
 * Application: ${application.title}${application.formatted-version}, Spring Boot Version:${spring-boot.formatted-version}
