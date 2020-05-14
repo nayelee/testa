@@ -18,11 +18,9 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @SpringBootApplication
 public class BootSpringBootApplication {
 	public static void main(String[] args) {
-		// SpringApplication.run(BootSpringBootApplication.class, args);
 
 		SpringApplication app = new SpringApplication(BootSpringBootApplication.class);
 		app.addListeners(new ApplicationPidFileWriter());
-		//app.setWebEnvironment(false);	// 2.0 에서 Deprecated 됨
 		app.setWebApplicationType(WebApplicationType.SERVLET);
 		app.run(args);
 	}

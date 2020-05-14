@@ -10,4 +10,5 @@ public class GreetingController {
     public String greeting() {
         return "Hello, Boot Spring Boot!!";
     }
+
 }

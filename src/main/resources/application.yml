@@ -9,6 +9,10 @@ logging:
     io.honeymon.boot.springboot: DEBUG
 server:
   port: 9000
+
+
+
+
 # ExampleProperties
 example:
   remote-address: 192.168.1.1
@@ -18,8 +22,12 @@ example:
       - USER
       - ADMIN
 spring:
-  thymeleaf:
-    cache: false
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+
 management:
   endpoints:
     web:

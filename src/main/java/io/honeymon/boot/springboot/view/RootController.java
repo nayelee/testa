@@ -7,8 +7,25 @@ import io.honeymon.boot.springboot.view.annotation.ViewController;
 @ViewController
 public class RootController {
 
-    @GetMapping("/root")
-    public String root() {
-        return "root";
+    @GetMapping("/dashboard")
+    public String goMainPage() {
+
+        return "dashboard/main";
     }
+    @GetMapping("/myInfoPage")
+    public String goMyInfoPage() {
+
+        return "user/main";
+    }
+    @GetMapping("/tradePage")
+    public String goTradePage() {
+
+        return "trade/main";
+    }
+
+    @GetMapping("/sysPage")
+    public String goSysPage() {
+        return "sys/main";
+    }
+
 }
