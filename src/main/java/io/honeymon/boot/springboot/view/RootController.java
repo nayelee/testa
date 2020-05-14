@@ -25,6 +25,7 @@ public class RootController {
 
     @GetMapping("/sysPage")
     public String goSysPage() {
+
         return "sys/main";
     }
 
